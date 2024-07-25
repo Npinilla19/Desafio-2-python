@@ -21,19 +21,19 @@ print(f"Su IMC es {round(IMC,2)}")
 if IMC < 18.5 :
     print("Su Clasificacion segun OMS es BAJO PESO")
 
-if IMC > 18.5 < 25 :
+elif 18.5 <= IMC < 25 :
     print("Su clasificacion segun OMS es ADECUADO")
 
-if IMC > 25 < 30 :
+elif 25 <= IMC < 30 :
     print("Su clasificacion segun OMS es SOBREPESO")
 
-if IMC > 30 < 35 :
+elif 30 <= IMC < 35 :
     print("Su clasificacion segun OMS es OBESIDAD GRADO 1")
 
-if IMC > 35 < 40 :
+elif 35 <= IMC  < 40 :
     print("Su clasificacion segun OMS es OBESIDAD GRADO 2")
 
-if IMC > 40 :
+else :
     print("Su clasificacion segun OMS es OBESIDAD GRADO 3")
 
 
